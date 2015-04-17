@@ -1,4 +1,4 @@
-w = raw_input('Enter Weight:')
-h = raw_input('Enter Height:')
+w = raw_input('Enter Weight(lb):')
+h = raw_input('Enter Height (inch):')
 bmi = (float(w)/float(h)**2)*703
 print bmi
